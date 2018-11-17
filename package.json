@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.6.2",
     "react-dom": "^16.6.2",
-    "react-presents": "ccarruitero/react-presents#typo",
+    "react-presents": "^0.8.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
