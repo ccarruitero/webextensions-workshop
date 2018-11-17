@@ -46,16 +46,17 @@ slides.push(() => (
   </ContentSlide>
 ));
 
+const mozillaImg = 'https://www.mozilla.org/media/img/contribute/studentambassadors/hero.513535501a1e.jpg';
 slides.push(() => (
   <ContentSlide>
     <h1>Mozilla</h1>
     <img
       className='full-img'
       alt=''
-      src='https://www.mozilla.org/media/img/contribute/studentambassadors/hero.513535501a1e.jpg'
+      src={mozillaImg}
     />
     <p>
-      'https://www.mozilla.org/media/img/contribute/studentambassadors/hero.513535501a1e.jpg'
+      {mozillaImg}
     </p>
   </ContentSlide>
 ));
@@ -83,15 +84,16 @@ slides.push(() => (
   </ContentSlide>
 ));
 
+const anatomyImg = 'https://mdn.mozillademos.org/files/13669/webextension-anatomy.png';
 slides.push(() => (
   <ContentSlide>
     <h1>Anatomy of Web Extensions</h1>
     <img
       className='page-img'
       alt=''
-      src='https://mdn.mozillademos.org/files/13669/webextension-anatomy.png'
+      src={anatomyImg}
     />
-    <p>'https://mdn.mozillademos.org/files/13669/webextension-anatomy.png'</p>
+    <p>{anatomyImg}</p>
   </ContentSlide>
 ));
 
@@ -150,22 +152,34 @@ slides.push(() => (
   </ContentSlide>
 ));
 
-const browserApi = "a button in the browser's toolbar";
+const browserAction = "a button in the browser's toolbar";
 slides.push(() => (
   <TitleSlide>
     <h1>BrowserAction API</h1>
     <Step index={1}>
-    <li>{browserApi}</li>
+    <li>{browserAction}</li>
     </Step>
     <Step index={2}>
-    <li>properties defined in manifest.json</li>
+    <li>most properties defined in manifest.json</li>
+    </Step>
+    <Step index={3}>
+    <li>you can listen for clicks on the icon</li>
     </Step>
   </TitleSlide>
 ));
 
+const pageAction = "a clickable icon inside the browser's address bar";
 slides.push(() => (
   <TitleSlide>
     <h1>pageAction API</h1>
+    <Step index={1}>
+    <li>{pageAction}</li>
+    <img
+      className='page-img'
+      alt=''
+      src='https://mdn.mozillademos.org/files/12960/page-action.png'
+    />
+    </Step>
   </TitleSlide>
 ));
 
@@ -177,13 +191,31 @@ slides.push(() => (
 
 slides.push(() => (
   <TitleSlide>
-    <h1>Background Scripts</h1>
+    <h1>notifications API</h1>
+  </TitleSlide>
+));
+
+const alarms = "like setTimeout() and setInterval(), but for background pages";
+slides.push(() => (
+  <TitleSlide>
+    <h1>alarms API</h1>
+    <Step index={1}>
+      <p>{alarms}</p>
+    </Step>
   </TitleSlide>
 ));
 
 slides.push(() => (
   <TitleSlide>
-    <h1>Content Scripts</h1>
+    <h1>Background Scripts</h1>
+    <li>long-running logic</li>
+  </TitleSlide>
+));
+
+const tooling = 'some tooling'.toLocaleUpperCase();
+slides.push(() => (
+  <TitleSlide>
+    <h1>{tooling}</h1>
   </TitleSlide>
 ));
 
