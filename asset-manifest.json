@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.2ddc4bba.chunk.css",
-  "main.js": "/static/js/main.f82685c4.chunk.js",
-  "main.js.map": "/static/js/main.f82685c4.chunk.js.map",
-  "static/js/1.abfe3820.chunk.js": "/static/js/1.abfe3820.chunk.js",
-  "static/js/1.abfe3820.chunk.js.map": "/static/js/1.abfe3820.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.2ddc4bba.chunk.css.map": "/static/css/main.2ddc4bba.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.63f00428d853c9a0ab0c24d95738fae8.js": "/precache-manifest.63f00428d853c9a0ab0c24d95738fae8.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/webextensions-workshop/static/css/main.2ddc4bba.chunk.css",
+  "main.js": "/webextensions-workshop/static/js/main.cabc0464.chunk.js",
+  "main.js.map": "/webextensions-workshop/static/js/main.cabc0464.chunk.js.map",
+  "static/js/1.2d71a9cf.chunk.js": "/webextensions-workshop/static/js/1.2d71a9cf.chunk.js",
+  "static/js/1.2d71a9cf.chunk.js.map": "/webextensions-workshop/static/js/1.2d71a9cf.chunk.js.map",
+  "runtime~main.js": "/webextensions-workshop/static/js/runtime~main.4fb09612.js",
+  "runtime~main.js.map": "/webextensions-workshop/static/js/runtime~main.4fb09612.js.map",
+  "static/css/main.2ddc4bba.chunk.css.map": "/webextensions-workshop/static/css/main.2ddc4bba.chunk.css.map",
+  "index.html": "/webextensions-workshop/index.html",
+  "precache-manifest.de08dcc317a9376af120cc922c01a8e1.js": "/webextensions-workshop/precache-manifest.de08dcc317a9376af120cc922c01a8e1.js",
+  "service-worker.js": "/webextensions-workshop/service-worker.js"
 }
