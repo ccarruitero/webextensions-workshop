@@ -2,18 +2,22 @@ import React from 'react'
 import { TitleSlide, ContentSlide, Step, Code } from 'react-presents'
 import './App.css';
 import manifestCode from './snippets/manifest.json';
+import borderifyImg from './images/borderify.png';
+import javascriptApisImg from './images/javascript-apis.png';
 
 const slides = [];
+const ghUrl = 'https://github.com/mozillaperu'
+const twUrl = 'https://twitter.com/mozillaperu'
 
 slides.push(() => (
   <TitleSlide>
     <h1>Building Web Extensions</h1>
     <h2>Mozilla Perú</h2>
     <h2>
-      <a href='https://github.com/mozillaperu'>
+      <a href={ghUrl}>
         <i className='fa fa-github' />
       </a>
-      <a href='https://twitter.com/mozillaperu'>
+      <a href={twUrl}>
         <i className='fa fa-twitter' />
       </a>
     </h2>
@@ -117,7 +121,7 @@ slides.push(() => (
     <h2>Content Scripts</h2>
     <img
       className='page-img'
-      src='http://localhost:5000/borderify.png'
+      src={borderifyImg}
       alt=''
     />
   </ContentSlide>
@@ -130,7 +134,7 @@ slides.push(() => (
     <h2>for WebExtensions</h2>
     <img
       className='page-img'
-      src='http://localhost:5000/javascript-apis.png'
+      src={javascriptApisImg}
       alt=''
     />
     </Step>
@@ -219,32 +223,68 @@ slides.push(() => (
   </TitleSlide>
 ));
 
+const webExtRepo = 'https://github.com/mozilla/web-ext';
 slides.push(() => (
   <TitleSlide>
     <h1>web-ext</h1>
+    <h2>
+      <a href={webExtRepo}>
+        <i className='fa fa-github' />
+        {webExtRepo}
+      </a>
+    </h2>
   </TitleSlide>
 ));
 
+const createRepo = 'https://github.com/rpl/create-webextension';
 slides.push(() => (
   <TitleSlide>
     <h1>create-webextension</h1>
+    <h2>
+      <a href={createRepo}>
+        <i className='fa fa-github' />
+        {createRepo}
+      </a>
+    </h2>
   </TitleSlide>
 ));
 
+const polyfillRepo = 'https://github.com/mozilla/webextension-polyfill';
 slides.push(() => (
   <TitleSlide>
     <h1>webextension-polyfill</h1>
+    <h2>
+      <a href={polyfillRepo}>
+        <i className='fa fa-github' />
+        {polyfillRepo}
+      </a>
+    </h2>
   </TitleSlide>
 ));
 
 slides.push(() => (
   <ContentSlide>
-    <h1>Resource</h1>
+    <h1>Resources</h1>
     <ul>
       <li><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions'>MDN - Web Extensions docs</a></li>
       <li><a href='https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples'>Web Extensions examples</a></li>
     </ul>
   </ContentSlide>
+));
+
+slides.push(() => (
+  <TitleSlide>
+    <h1>Thanks!</h1>
+    <h2>
+      <a href={ghUrl}>
+        <i className='fa fa-github' />
+      </a>
+      <a href={twUrl}>
+        <i className='fa fa-twitter' />
+      </a>
+      @mozillaperu
+    </h2>
+  </TitleSlide>
 ));
 
 export default slides;
