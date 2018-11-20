@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.2ddc4bba.chunk.css",
-  "main.js": "/static/js/main.f82685c4.chunk.js",
-  "main.js.map": "/static/js/main.f82685c4.chunk.js.map",
-  "static/js/1.abfe3820.chunk.js": "/static/js/1.abfe3820.chunk.js",
-  "static/js/1.abfe3820.chunk.js.map": "/static/js/1.abfe3820.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.2ddc4bba.chunk.css.map": "/static/css/main.2ddc4bba.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.63f00428d853c9a0ab0c24d95738fae8.js": "/precache-manifest.63f00428d853c9a0ab0c24d95738fae8.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "mozillaperu.github.io/webextensions-workshop/static/css/main.2ddc4bba.chunk.css",
+  "main.js": "mozillaperu.github.io/webextensions-workshop/static/js/main.2e943008.chunk.js",
+  "main.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/main.2e943008.chunk.js.map",
+  "static/js/1.84fd8eba.chunk.js": "mozillaperu.github.io/webextensions-workshop/static/js/1.84fd8eba.chunk.js",
+  "static/js/1.84fd8eba.chunk.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/1.84fd8eba.chunk.js.map",
+  "runtime~main.js": "mozillaperu.github.io/webextensions-workshop/static/js/runtime~main.651e893b.js",
+  "runtime~main.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/runtime~main.651e893b.js.map",
+  "static/css/main.2ddc4bba.chunk.css.map": "mozillaperu.github.io/webextensions-workshop/static/css/main.2ddc4bba.chunk.css.map",
+  "index.html": "mozillaperu.github.io/webextensions-workshop/index.html",
+  "precache-manifest.a349e761a7a8542a4fbcfad2c1eb67ab.js": "mozillaperu.github.io/webextensions-workshop/precache-manifest.a349e761a7a8542a4fbcfad2c1eb67ab.js",
+  "service-worker.js": "mozillaperu.github.io/webextensions-workshop/service-worker.js"
 }
