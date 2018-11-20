@@ -1,13 +1,13 @@
 {
-  "main.css": "mozillaperu.github.io/webextensions-workshop/static/css/main.2ddc4bba.chunk.css",
-  "main.js": "mozillaperu.github.io/webextensions-workshop/static/js/main.2e943008.chunk.js",
-  "main.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/main.2e943008.chunk.js.map",
-  "static/js/1.84fd8eba.chunk.js": "mozillaperu.github.io/webextensions-workshop/static/js/1.84fd8eba.chunk.js",
-  "static/js/1.84fd8eba.chunk.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/1.84fd8eba.chunk.js.map",
-  "runtime~main.js": "mozillaperu.github.io/webextensions-workshop/static/js/runtime~main.651e893b.js",
-  "runtime~main.js.map": "mozillaperu.github.io/webextensions-workshop/static/js/runtime~main.651e893b.js.map",
-  "static/css/main.2ddc4bba.chunk.css.map": "mozillaperu.github.io/webextensions-workshop/static/css/main.2ddc4bba.chunk.css.map",
-  "index.html": "mozillaperu.github.io/webextensions-workshop/index.html",
-  "precache-manifest.a349e761a7a8542a4fbcfad2c1eb67ab.js": "mozillaperu.github.io/webextensions-workshop/precache-manifest.a349e761a7a8542a4fbcfad2c1eb67ab.js",
-  "service-worker.js": "mozillaperu.github.io/webextensions-workshop/service-worker.js"
+  "main.css": "/webextensions-workshop/static/css/main.2ddc4bba.chunk.css",
+  "main.js": "/webextensions-workshop/static/js/main.cabc0464.chunk.js",
+  "main.js.map": "/webextensions-workshop/static/js/main.cabc0464.chunk.js.map",
+  "static/js/1.2d71a9cf.chunk.js": "/webextensions-workshop/static/js/1.2d71a9cf.chunk.js",
+  "static/js/1.2d71a9cf.chunk.js.map": "/webextensions-workshop/static/js/1.2d71a9cf.chunk.js.map",
+  "runtime~main.js": "/webextensions-workshop/static/js/runtime~main.4fb09612.js",
+  "runtime~main.js.map": "/webextensions-workshop/static/js/runtime~main.4fb09612.js.map",
+  "static/css/main.2ddc4bba.chunk.css.map": "/webextensions-workshop/static/css/main.2ddc4bba.chunk.css.map",
+  "index.html": "/webextensions-workshop/index.html",
+  "precache-manifest.de08dcc317a9376af120cc922c01a8e1.js": "/webextensions-workshop/precache-manifest.de08dcc317a9376af120cc922c01a8e1.js",
+  "service-worker.js": "/webextensions-workshop/service-worker.js"
 }
