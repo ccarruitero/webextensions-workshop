@@ -1,0 +1,1 @@
+{"version":3,"sources":["/home/pavle/projects/webextensions-workshop/src/App.css"],"names":[],"mappings":"AAAA,UACE,UAAW,AACX,aAAe,CAChB,AAED,UACE,WAAY,AACZ,iBAAmB,CACpB","file":"main.4a7ecc94.chunk.css","sourcesContent":[".page-img {\n  width: 60%;\n  margin: 0 auto;\n}\n\n.full-img {\n  width: 100%;\n  text-align: center;\n}\n"]}
